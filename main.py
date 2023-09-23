@@ -1,3 +1,7 @@
+import smartsheet
+import logging
+import os
+
 def getLogin():
     loginInfo = open("login.txt", "r") \
                  .readline() \
